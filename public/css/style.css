@@ -1,6 +1,38 @@
+:root {
+  --bg-color: #cfb284;
+  --color-black: #000000;
+}
+
+* {
+  background-color: var(--bg-color);
+}
+
+nav {
+  color: var(--color-black);
+  background-color: var(--color-black);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+}
+
+nav a {
+  margin-left: 32px;
+  margin-right: 32px;
+  color: var(--bg-color);
+  font-size: 20px;
+  text-decoration: none;
+}
+
 header, .project:not(:last-child) {
     border-bottom: 1px solid #ccc;
   }
+
+header h1 {
+  color: var(--bg-color);
+  background-color: var(--color-black);
+  padding-left: 128px;
+  padding-bottom: 32px;
+}
   
   .no-button {
     background: none;
