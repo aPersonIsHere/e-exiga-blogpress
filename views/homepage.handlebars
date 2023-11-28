@@ -1,22 +1,28 @@
-{{#each projects as |project| }}
-<div class="row mb-4 project">
+{{#unless blog.length}}
+  <h2>
+    There are no blogs made on this site! Signup to create and post the first blog!
+  </h2>
+{{/unless}}
+{{#each blogs as |blog| }}
+<div class="row mb-4 blog">
   <div class="col-md-5">
     <h2>
       <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      {{{get_emoji}}}
-      <a href="/project/{{project.id}}">{{project.name}}</a>
+      <a href="/blog/{{blog.id}}">{{blog.name}}</a>
     </h2>
+    {{#if t}}
     <p>
       <span for="img" aria-label="money">💲</span>
       <!-- Pass needed_funding value to the helper function -->
-      <span class="dollar-amount">{{format_amount project.needed_funding}}</span>
+      <span class="dollar-amount">{{format_amount blog.needed_funding}}</span>
       needed!
     </p>
-    <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
+    {{/if}}
+    <p>Created by {{blog.user.name}} on {{format_date blog.date_created}}</p>
   </div>
   <div class="col-md-7">
     <p>
-      {{project.description}}
+      {{blog.description}}
     </p>
   </div>
 </div>
