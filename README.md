@@ -1,7 +1,27 @@
 # Blogpress
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Heroku Deployed Site: REPLACE THIS
+Heroku Deployed Site: https://exiga-blogpress-651f132af246.herokuapp.com/
+
+How the Site appears when not logged in or opening the link for the first time:
+![image](https://github.com/aPersonIsHere/e-exiga-blogpress/assets/33707404/5936ca9c-77a0-4f04-b222-42f14d5bce7e)
+
+Click the "Login/Signup" button to create an account. Since my account is already made, I will login.
+![image](https://github.com/aPersonIsHere/e-exiga-blogpress/assets/33707404/5a7c90b3-b0af-4136-99ef-629cc365f16f)
+
+Now logged in, I will make a post. Once finished, click "Create":
+![image](https://github.com/aPersonIsHere/e-exiga-blogpress/assets/33707404/80c682d9-5d2b-4bb6-bf84-2f170edd8cc7)
+
+(The post will now appear in your dashboard at the right.)
+![image](https://github.com/aPersonIsHere/e-exiga-blogpress/assets/33707404/55eb5cef-e166-46a7-a7f8-dbc1642d033c)
+
+Now, go to the Home page and you will see your post is there!
+![image](https://github.com/aPersonIsHere/e-exiga-blogpress/assets/33707404/2d189835-9d53-4284-be16-c5e7b8e4a748)
+
+Click on the post to see it isolated! Comments and editing features are planned in a future update:
+![image](https://github.com/aPersonIsHere/e-exiga-blogpress/assets/33707404/8e9213ae-e9e1-40f9-9f93-6fee8d129b92)
+
+Once you are done, you are welcome to leave the page, however it is best practice to press the "Logout" text at the top.
 
 ## Description
         
