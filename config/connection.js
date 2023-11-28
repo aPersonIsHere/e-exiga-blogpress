@@ -10,7 +10,7 @@ sequelize = new Sequelize(
     {
         host: process.env.DB_HOST,
         dialect: 'mysql',
-        port: 5001
+        port: 3306
     }
 );
 
